@@ -1,7 +1,7 @@
 # Asset Allocation Project
 
 ### Prepared by Michael Desai
-### Virginia Retirement System Interview
+### VRS Interview
 
 <br>
 
@@ -121,7 +121,7 @@ This approach to calculating recent returns would also make the strategy's retur
 
 Variance of the portfolio is based on which assets are in the portfolio. To visualize this, I created correlograms which show the covariance matrix of each asset with each other asset in a grid. 
 
-![Correlogram](img/4_correlogram.png)
+![Correlogram](img/4_correlogram.PNG)
 
 One thing I noticed was how loosely correlated most of the assets are, with a few notable exceptions - asset8 seems to be tightly correlated with assets1, 2, and 3. And assets 7 and 9 appear to be very strongly uncorrelated. Nothing is perfectly uncorrelated. 
 
@@ -144,7 +144,7 @@ ef.save_weights_to_file('weights/max_sharpe_weights.csv')
 ef.portfolio_performance(verbose=True)
 ```
 Weights Maximizing Sharpe Ratio
-![Max Sharpe Asset Weights](img/4_maxsharpeweights.png)
+![Max Sharpe Asset Weights](img/4_maxsharpeweights.PNG)
 
 Weights Minimizing Variance
 ![Min Vol Asset Weights](img/4_minvolweights.png)
