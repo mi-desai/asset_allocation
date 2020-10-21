@@ -63,7 +63,7 @@ I used a lot of loops here, but if I was going to refactor it I would use list c
 
 This function was exported to the utilities.py file, where it is used in other files several times. 
 
-![After](img/1_after.png)
+![After](img/1_after.PNG)
 
 <br>
 
